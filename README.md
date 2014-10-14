@@ -2,7 +2,7 @@ Solar Intermittence
 ===================
 
 This is a set of scripts for testing solar intermittence in the ACRANEB2
-radiative transfer scheme using SCM (Single Cell Model).
+radiative transfer scheme using the acra2 SCM (Single Cell Model).
 
 Getting Started
 ---------------
@@ -29,8 +29,9 @@ Getting Started
 
 	echo "install.packages('rjson', repos='http://cran.rstudio.com/')" | R --no-save
 
-Create a symbolic link to acra2 (SCM model executable) in the local directory:
+Create a symbolic link to acra2 (SCM model executable) in the scripts directory:
 
+	cd scripts
 	ln -s /path/to/scm/bin/acra2
 
 Overview
@@ -78,11 +79,11 @@ optionally supplying given optical thicknesses to the model.
 	is formatted using [jinja2](http://jinja.pocoo.org/), supplied with
 	variables:
 
-		* `mu0` – zenithal angles
-		* `optical_thickness_downward`
-			– downward optical thickness (if present in *input*)
-		* `optical_thickness_upward`
-			– upward optical thickness (if present in *input*)
+	* `mu0` – zenithal angles
+	* `optical_thickness_downward`
+		– downward optical thickness (if present in *input*)
+	* `optical_thickness_upward`
+		– upward optical thickness (if present in *input*)
 
 * **input**
 
