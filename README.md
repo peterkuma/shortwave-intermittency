@@ -19,15 +19,15 @@ Getting Started
 
 1. Install requirements (Ubuntu/Debian):
 
-	apt-get install python python-numpy r-base
+		apt-get install python python-numpy r-base
 
 2. Install python packages:
 
-	pip install --user jinja2
+		pip install --user jinja2
 
 2. Install R packages:
 
-	echo "install.packages('rjson', repos='http://cran.rstudio.com/')" | R --no-save
+		echo "install.packages('rjson', repos='http://cran.rstudio.com/')" | R --no-save
 
 Create a symbolic link to acra2 (SCM model executable) in the scripts directory:
 
