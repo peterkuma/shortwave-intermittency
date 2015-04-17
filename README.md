@@ -1,7 +1,7 @@
-Solar Intermittence
-===================
+Shortwave Intermittency
+=======================
 
-This is a set of scripts for testing solar intermittence in the ACRANEB2
+This is a set of scripts for testing shortwave intermittency in the ACRANEB2
 radiative transfer scheme using the acra2 SCM (Single Cell Model).
 
 Getting Started
@@ -42,7 +42,7 @@ All scripts are contained in the `scripts` directory.
 ### input.py
 
 Prepare input for `run.py` (see below). Calculates zenithal angles
-according to chosen intermittence constants specified inside the script.
+according to chosen intermittency constants specified inside the script.
 
 #### Usage
 
@@ -60,7 +60,7 @@ according to chosen intermittence constants specified inside the script.
 
 * **interval**
 
-	Intermittence interval in degrees.
+	Intermittency interval in degrees.
 
 ### run.py
 
