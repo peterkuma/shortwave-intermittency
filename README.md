@@ -2,7 +2,10 @@ Shortwave Intermittency
 =======================
 
 This is a set of scripts for testing shortwave intermittency in the ACRANEB2
-radiative transfer scheme using the acra2 SCM (Single Cell Model).
+radiative transfer scheme using the acra2 SCM (Single Cell Model) for the
+master's degree thesis [Broadband approach as a framework for implementation of
+radiative transfer scheme with selective intermittency: Cost versus accuracy
+study](https://doi.org/10.5281/zenodo.3764236).
 
 Getting Started
 ---------------
@@ -127,7 +130,7 @@ The script produces a PDF plot for each dataset in the product.
 
 ### interpolate.R
 
-Perform linear interpolation of optical depths. Outputs JSON suitable 
+Perform linear interpolation of optical depths. Outputs JSON suitable
 as input for `run.py`.
 
 #### Usage
@@ -230,3 +233,8 @@ Each directory contains files as in the example above, especially:
 - `product_ref`: Plots of the reference (non-intermittent) run.
 - `product_linear_interp`: Plots of the interpolated run (linear interpolation).
 - `validation`: Comparison of the reference and interpolated runs.
+
+License
+-------
+
+This software is available under the terms of the [MIT license](LICENSE.md).
